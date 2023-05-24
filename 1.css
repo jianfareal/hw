@@ -1,0 +1,52 @@
+.box {
+    width: 300px;
+    height: 300px;
+}
+body {
+    background: rgb(221, 166, 194);
+    background-image: url(1.jpg);
+}
+header li {
+    display: inline-block;
+    width:24%;
+}
+li {
+    display: inline;
+}
+header {
+    font-size: 40px;
+    background-color: #ccc7d8;
+    height: 65px;
+    margin: 0 auto;
+}
+main {
+    margin: 100px;
+}
+table {
+    border-collapse:collapse;
+    margin:auto;
+}
+table tr:nth-child(odd) {
+    background-color: rgb(113, 192, 144);
+}
+table, td, th {border: 1px solid black;}
+img {
+    box-shadow:0px 0px 10px 5px #aaa;
+    border:1px solid #BFBFBF;
+}
+footer {
+    width: 60;
+    background-color: aquamarine;
+}
+footer p{
+    text-align: center;
+}
+td:nth-child(2) {
+    color: rgb(60, 90, 180)
+}
+
+a {text-decoration:none;} 
+a:link {color: red;}
+a:visited {color: aqua;}
+a:hover {color: rgb(51, 99, 45);}
+a:active {color: blue;}
